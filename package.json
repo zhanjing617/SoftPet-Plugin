@@ -1,0 +1,55 @@
+{
+  "name": "softpet",
+  "version": "0.3.2",
+  "description": "SoftPet 治愈桌宠：不打扰、会呼吸、零压力。七种治愈形态轮流来访，共享羁绊与日记；审批等待时轻声提醒，默认完全离线，只读取 DSH 的粗粒度状态，所有数据留在本地。",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg",
+    "./locale/en.json": "./locale/en.json",
+    "./locale/zh.json": "./locale/zh.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "docs",
+    "assets",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "desktop-pet",
+    "companion",
+    "桌宠",
+    "治愈"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-session"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

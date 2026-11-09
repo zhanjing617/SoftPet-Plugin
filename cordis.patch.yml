@@ -1,0 +1,6 @@
+# SoftPet profile patch layer — insert one loader entry for the plugin package.
+# The visual half is a browser module declared through `dsh.client`; this entry
+# only makes the package known to the profile loader.
+- insert:
+    - id: softpet
+      name: 'softpet'

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="SoftPet">
+  <rect width="128" height="128" rx="30" fill="#FFF8EE"/>
+  <ellipse cx="64" cy="112" rx="26" ry="4" fill="#E9D9C6" opacity=".7"/>
+  <path d="M36 54 C30 38 32 26 39 24 C47 22 52 35 53 50 Z" fill="#FFFBF3"/>
+  <path d="M92 54 C98 38 96 26 89 24 C81 22 76 35 75 50 Z" fill="#FFFBF3"/>
+  <path d="M38 50 C35 39 36 32 39 30 C43 29 46 38 47 47 Z" fill="#F3C9CE"/>
+  <path d="M90 50 C93 39 92 32 89 30 C85 29 82 38 81 47 Z" fill="#F3C9CE"/>
+  <ellipse cx="64" cy="72" rx="34" ry="31" fill="#FFFBF3"/>
+  <path d="M40 52 C46 39 60 35 71 40 C77 43 80 47 82 51 C74 47 66 48 60 53 C54 48 46 49 40 52 Z" fill="#F7E4C8" opacity=".7"/>
+  <path d="M65 40 C63 34 68 30 74 29 C78 28 80 32 76 35" fill="none" stroke="#E5B45C" stroke-width="2.4" stroke-linecap="round"/>
+  <ellipse cx="52" cy="72" rx="4.6" ry="6" fill="#4B3A34"/>
+  <ellipse cx="76" cy="72" rx="4.6" ry="6" fill="#4B3A34"/>
+  <circle cx="53.6" cy="70" r="1.5" fill="#fff"/>
+  <circle cx="77.6" cy="70" r="1.5" fill="#fff"/>
+  <ellipse cx="42" cy="82" rx="7" ry="4" fill="#F09E97" opacity=".55"/>
+  <ellipse cx="86" cy="82" rx="7" ry="4" fill="#F09E97" opacity=".55"/>
+  <path d="M59 84 Q64 88 69 84" fill="none" stroke="#4B3A34" stroke-width="2" stroke-linecap="round"/>
+  <path d="M44 95 C50 101 78 101 84 95 C80 103 72 106 64 106 C56 106 48 103 44 95 Z" fill="#B9D8C7"/>
+</svg>
